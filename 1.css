@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    margin: auto;
+}
+
+h1 {
+    border: 2px solid goldenrod;
+    background-color: darkcyan;
+    color: antiquewhite;
+    padding: 10px;
+}
+
+.key{
+    border: 2px solid goldenrod;
+    background-color: darkcyan;
+    color: antiquewhite;
+    padding: 10px;
+    display: inline-flex;
+    position: relative;
+    margin: 15px;
+    min-width: 100px;
+}
+.key small{
+    position: absolute;
+    top: -20px;
+    color: darkcyan;
+    display: flex;
+    left: 0;
+    min-width: 100px;
+  
+}
